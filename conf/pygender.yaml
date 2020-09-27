@@ -1,0 +1,17 @@
+Log:
+  name: pyGender.log
+  Path: "logs/pygender.log"
+  Level: DEBUG
+  isDebug: false
+AudioFile:
+  name: speaker1.pcm
+  path: E:/GoProject/src/pyGender/AudioFiles/
+  maxsize:
+  frameSize: 1280                 #每一帧的音频大小
+  intervel:  40                   #发送音频间隔 ms
+Server:
+  hostUrl: "wss://ws-api.xfyun.cn/v2/igr"
+  apiKey: "8caf9f7bf2e5d095d6ecf75a93bbdc75"
+  apiSecret: "cfe9a72e79c4b8072e845ecfab94af6e"
+  appid: "5f6ab15a"
+
